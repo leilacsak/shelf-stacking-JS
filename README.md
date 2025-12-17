@@ -1,4 +1,4 @@
-# Sort the Fruit
+# Sort the Fruit - Leila's copy
 
 A simple exercise to teach JavaSpcript loops and DOM interaction
 
@@ -8,16 +8,14 @@ First you need to either **[clone](https://docs.github.com/en/repositories/creat
 
 Open a preview of the site. Depending on which IDE you're using this might differ. But the Live Server extension for VS Code is an easy tool to use for this.
 
-The preview should look like this: 
+The preview should look like this:
 
 ![empty shelves](assets/images/sort-fruit.png)
 
 On this page you can see three empty shelves in a supermarket.
 They now need filling!
 
-
 ## The Challenge
-
 
 If you take a look inside the [script.js](assets/js/script.js) file, you will find an array of unsorted fruit.
 
@@ -27,13 +25,11 @@ You only need to add code in the script file to achieve this. There is no need t
 
 Good Luck!
 
-
 ## The Solution
 
 This is what your page should look like after you've written the correct JavaScript code:
 
 ![solution](assets/images/fruits-result.png)
-
 
 ## Hints
 
@@ -108,7 +104,6 @@ This is what your page should look like after you've written the correct JavaScr
     </p>
 </details>
 
-
 ## Credits
 
-*bg-supermarket.jpg*: https://virtualbackgrounds.site/background/produce-department-in-a-supermarket/
+_bg-supermarket.jpg_: https://virtualbackgrounds.site/background/produce-department-in-a-supermarket/
