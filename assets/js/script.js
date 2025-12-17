@@ -5,8 +5,7 @@ const orangeShelf = document.getElementById("orange-shelf");
 const appleShelf = document.getElementById("apple-shelf");
 
 function sortFruits() {
-  for (let i = 0; i < fruits.length; i++) {
-    const fruit = fruits[i];
+    for (let fruit of fruits) {
     if (fruit === "🍌") {
       bananaShelf.textContent += fruit;
     } else if (fruit === "🍊") {
