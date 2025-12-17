@@ -4,6 +4,20 @@ const bananaShelf = document.getElementById("banana-shelf");
 const orangeShelf = document.getElementById("orange-shelf"); 
 const appleShelf = document.getElementById("apple-shelf");
 
+function sortFruits() {
+  for (let i = 0; i < fruits.length; i++) {
+    const fruit = fruits[i];
+    if (fruit === "🍌") {
+      bananaShelf.textContent += fruit;
+    } else if (fruit === "🍊") {
+      orangeShelf.textContent += fruit;
+    } else if (fruit === "🍏") {
+      appleShelf.textContent += fruit;
+    }
+  } 
+}
+
+sortFruits();
 
  
 
